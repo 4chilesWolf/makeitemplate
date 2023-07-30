@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Megrim&family=Raleway&family=Poppins&family=Didact+Gothic&display=swap);
 
-.container {
+.containerk {
     width: 550px;
     margin: 50px auto;
     background: #0f0f0f;
@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-.containerimg {
+.containerimgk {
     background:url(https://media0.giphy.com/media/LrEuHhGTir0gtU0jVH/giphy.gif?cid=6c09b952m6hs7xwg7yzkhtu65n2exrxfk2awjfy8nkldz230&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
     width: 100%;
     background-image: cover;
@@ -17,7 +17,7 @@
     height: 200px
 }
 
-.title {
+.titlek {
     background-color: transparent;
     backdrop-filter: blur(2px);
     font-weight: bold;
@@ -34,7 +34,7 @@
     text-shadow: 2px 2px 2px black;
 }
 
-.textcontainer {
+.textcontainerk {
     color: #f8f8ff;
     font-size: 12px;
     padding: 20px;
@@ -63,7 +63,7 @@
     padding: 20px 0;
 }
 
-.container::before {
+.containerk::before {
     content: '';
     display: block;
     width: 410px;
