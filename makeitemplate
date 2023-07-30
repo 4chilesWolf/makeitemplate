@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Megrim&family=Raleway&family=Poppins&family=Didact+Gothic&display=swap);
+
+.container {
+    width: 550px;
+    margin: 50px auto;
+    background: #0d0c0e;
+    box-shadow: 0 0 10px 0 #000;
+    position:relative;
+    overflow: hidden;
+}
+
+.containerimg {
+    background:url(https://i.imgur.com/2ZCRszA.png);
+    width: 100%;
+    background-image: cover;
+    overflow: hidden;
+    height: 200px
+}
+
+.title {
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Megrim', cursive;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 0;
+    margin: 100px auto;
+    width: 55%;
+    text-align: center;
+    position: relative;
+    top: 35px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.textcontainer {
+    color: #f8f8ff;
+    font-size: 12px;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+.hr1 {
+    height:1px;
+    border: none;
+    background-color: #fff;
+    width: 92%;
+    margin: auto;
+    box-shadow: 0 0 2px black;
+}
+
+.hist {
+    background-color: transparent;
+    width: 500px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 11px;
+    color:#fbfbf8;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+.container::before {
+    content: '';
+    display: block;
+    width: 500px;
+    height: 500px;
+    background-image:url(https://i.imgur.com/sHTZKVh.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 14%
+}
