@@ -3,7 +3,7 @@
 .containerk {
     width: 550px;
     margin: 50px auto;
-    background: #0f0f0f;
+    background: #060606;
     box-shadow: 0 0 10px 0 #000;
     position:relative;
     overflow: hidden;
@@ -26,7 +26,7 @@
     color: white;
     border: 1px solid white;
     padding: 20px 0;
-    margin: 100px auto;
+    margin: -2px auto;
     width: 55%;
     text-align: center;
     position: relative;
@@ -37,11 +37,12 @@
 .textcontainerk {
     color: #f8f8ff;
     font-size: 12px;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     position: relative;
     z-index: 1;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .hr2 {
@@ -67,7 +68,7 @@
     content: '';
     display: block;
     width: 410px;
-    height: 680px;
+    height: 667px;
     background-image:url(https://images-ext-2.discordapp.net/external/hcrt_gkvYytTl0deYNxddHsImtr2uQEeidrYx7hLCGw/https/i.pinimg.com/564x/8c/00/b5/8c00b5e7ff914ac5ad327f71067c652a.jpg?width=387&height=670);
     background-size: cover;
     background-position: center;
